@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+//include libraries
 #include <iterator>
 #include <iostream>
 #include <stdlib.h>
@@ -10,10 +10,10 @@
 using namespace std;
 
 void lexer(string str){
-        // define list of patterns
+        // patterns to be identified
     map<string,string> patterns {
         { "[0-9]+" ,   "Number" },
-        { "[a-z]+" ,   "Identifier" },
+        { "[a-zA-Z]+" ,   "Identifier" },
         { "\\*|\\+|\\-|\\/|\\>|\\<|\\=|\\!",  "Operator" },
         { "\\,|\\(|\\)|\\;|\\{|\\}|\\[|\\]", "Separator"}
     };
@@ -36,6 +36,6 @@ void lexer(string str){
 }
 
 int main(){
-    string str = "Venessa Chege, Born on: 29/05, Age (22-1);
+    string str = "Venessa Chege, Born on: 29/05, Age (22-1)";
     lexer(str);
 }
