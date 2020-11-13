@@ -2,9 +2,9 @@
 
 ## Lab 1
 #### Design a simple lexical Analyser
-[Lexical_analyser.cpp](https://github.com/Venessachege/Compiler_Construction/blob/master/Lab1/lexical_analyser.cpp) contains code that tokenises an input string by matching words with predifined patterns
+[Lexical_analyser.cpp](https://github.com/Venessachege/Compiler_Construction/blob/master/Lab1/lexical_analyser.cpp) contains code that tokenises an input string by matching words to predifined patterns
 #### Bonus: Design an automatic lexical analyzer using Flex 
-Lexer.l is an implementation of an automatic lexical analyser.
+[Lexer.l] is an implementation of an automatic lexical analyser.
 
 
 ## Lab 2
